@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
-
+import Logo from "../Assets/logo.png"
 
 const Header = () => {
     return (
         <header>
-            <img class="logo" src="../assets/logo.png" alt="Logo Multibox" />
+            <img className="logo" src={Logo} alt="Logo Multibox" />
             <nav>
-                <a href="index.html">Início</a>
-                <a href="produtos.html">Produtos</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="contato.html">Contato</a>
-                <a href="login.html">Login</a>
+                <a href="Home">Início</a>
+                <a href="Produtos">Produtos</a>
+                <a href="Sobre">Sobre</a>
+                <a href="Contato">Contato</a>
+                <a href="Login">Login</a>
             </nav>
         </header>
     )

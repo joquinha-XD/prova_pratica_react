@@ -1,12 +1,12 @@
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
-import Produtos from "./pages/Produtos.jsx";
+import AppRoutes from "./routes/AppRoutes.jsx"
 
 const App = () => {
     return(
         <>
             <Header/>
-            <Produtos/>
+            <AppRoutes/>
             <Footer/>
         </>
     )

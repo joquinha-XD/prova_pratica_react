@@ -1,6 +1,6 @@
 const Footer = () => {
     return(
-        <footer>&copy; 2025 Multibox. Todos os direitos reservados.</footer>
+        <footer className="footer">&copy; 2025 Multibox. Todos os direitos reservados.</footer>
     )
 }
 
